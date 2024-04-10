@@ -1,0 +1,122 @@
+Configuration	F103_MidiPanel
+STM32CubeMX 	6.11.0
+Date	03/27/2024
+MCU	STM32F103C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB11
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Encoder Mode	TIM1_CH1	PA8
+TIM1	Encoder Mode	TIM1_CH2	PA9
+TIM2	Encoder Mode	TIM2_CH1	PA0-WKUP
+TIM2	Encoder Mode	TIM2_CH2	PA1
+TIM3	Encoder Mode	TIM3_CH1	PA6
+TIM3	Encoder Mode	TIM3_CH2	PA7
+TIM4	Encoder Mode	TIM4_CH1	PB6
+TIM4	Encoder Mode	TIM4_CH2	PB7
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+10	PA0-WKUP	TIM2_CH1	Enc2_1
+11	PA1	TIM2_CH2	Enc2_2
+16	PA6	TIM3_CH1	Enc3_1
+17	PA7	TIM3_CH2	Enc3_2
+21	PB10	I2C2_SCL	Tof_SCL
+22	PB11	I2C2_SDA	Tof_SDA
+29	PA8	TIM1_CH1	Enc1_2
+30	PA9	TIM1_CH2	Enc1_1
+32	PA11	USB_DM	
+33	PA12	USB_DP	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+40	PB4	GPIO_EXTI4	Tof_INT
+42	PB6	TIM4_CH1	Enc4_1
+43	PB7	TIM4_CH2	Enc4_2
+45	PB8	I2C1_SCL	Oled_SCL
+46	PB9	I2C1_SDA	Oled_SDA
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB11
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PD0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PD1-OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Encoder Mode	TIM1_CH1	PA8
+TIM1	Encoder Mode	TIM1_CH2	PA9
+TIM2	Encoder Mode	TIM2_CH1	PA0-WKUP
+TIM2	Encoder Mode	TIM2_CH2	PA1
+TIM3	Encoder Mode	TIM3_CH1	PA6
+TIM3	Encoder Mode	TIM3_CH2	PA7
+TIM4	Encoder Mode	TIM4_CH1	PB6
+TIM4	Encoder Mode	TIM4_CH2	PB7
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-TAMPER-RTC	GPIO_Output	
+5	PD0-OSC_IN	RCC_OSC_IN	
+6	PD1-OSC_OUT	RCC_OSC_OUT	
+10	PA0-WKUP	TIM2_CH1	Enc2_1
+11	PA1	TIM2_CH2	Enc2_2
+16	PA6	TIM3_CH1	Enc3_1
+17	PA7	TIM3_CH2	Enc3_2
+21	PB10	I2C2_SCL	Tof_SCL
+22	PB11	I2C2_SDA	Tof_SDA
+29	PA8	TIM1_CH1	Enc1_2
+30	PA9	TIM1_CH2	Enc1_1
+32	PA11	USB_DM	
+33	PA12	USB_DP	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+40	PB4	GPIO_EXTI4	Tof_INT
+42	PB6	TIM4_CH1	Enc4_1
+43	PB7	TIM4_CH2	Enc4_2
+45	PB8	I2C1_SCL	Oled_SCL
+46	PB9	I2C1_SDA	Oled_SDA
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : F103_MidiPanel
+Project Folder : S:\Inventor\kryptonim_MidiKnobDevice\SMT32_F103
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.5
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
